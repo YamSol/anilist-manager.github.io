@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://yamsol.github.io/anilist-manager.github.io/sw.js', { scope: 'https://yamsol.github.io/anilist-manager.github.io/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/anilist-manager.github.io/sw.js', { scope: '/anilist-manager.github.io/' })})}
